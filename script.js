@@ -5,11 +5,11 @@ function clearDisplay() {
     display.value = '';
 }
 
-function deleteLastChar() {
+function deleteLast() {
     display.value = display.value.toString().slice(0, -1);
 }
 
-function appendToDisplay(value) {
+function appendNumber(value) {
     display.value += value;
 }
 function calculateResult() {
